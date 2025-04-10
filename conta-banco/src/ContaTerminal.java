@@ -35,6 +35,7 @@ public class ContaTerminal {
             case 2:
                 System.out.println("Digite o valor do saque:");
                 float valorSaque = scanner.nextFloat();
+                
                 if (valorSaque> saldo) {
                     System.out.println("Erro, valor do saque maior que o saldo!");
                 }else{
